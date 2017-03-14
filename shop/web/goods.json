@@ -1,0 +1,51 @@
+{
+	"0" : {
+		"img" : "../img/pic_love_1.png",
+		"text" : "三利 毛巾家纺纯棉吸水 提缎面巾两条装",
+		"price" : "30",
+		"oldprice" : "300"
+	},
+
+	"1" : {
+		"img" : "../img/pic_love_2.png",
+		"text" : "韩国代购正品超爆款 休闲迷彩磨砂真皮运动鞋女单鞋",
+		"price" : "30",
+		"oldprice" : "300"
+	},
+	"2" : {
+		"img" : "../img/pic_love_3.png",
+		"text" : "纯手工打造紫砂茶壶煮茶神器优质好茶休闲养生",
+		"price" : "30",
+		"oldprice" : "300"
+	},
+	"3" : {
+		"img" : "../img/pic_love_4.png",
+		"text" : "金号床品家纺舒特曼S1206紫灰色两条装纯棉毛巾",
+		"price" : "30",
+		"oldprice" : "300"
+	},
+	"4" : {
+		"img" : "../img/pic_love_5.png",
+		"text" : "套头毛衣半高领冬季宽松纯色中长款打底衫开叉学生针织...",
+		"price" : "30",
+		"oldprice" : "300"
+	},
+	"5" : {
+		"img" : "../img/pic_love_6.png",
+		"text" : "假面加厚2015冬装新款韩版女装茧型宽松羊毛尼大衣中...",
+		"price" : "30",
+		"oldprice" : "300"
+	},
+	"6" : {
+		"img" : "../img/pic_love_7.png",
+		"text" : "金号床品家纺舒特曼S1206紫灰色两条装纯棉毛巾",
+		"price" : "30",
+		"oldprice" : "300"
+	},
+	"7" : {
+		"img" : "../img/pic_love_8.png",
+		"text" : "金号床品家纺舒特曼S1206紫灰色两条装纯棉毛巾",
+		"price" : "30",
+		"oldprice" : "300"
+	}
+}

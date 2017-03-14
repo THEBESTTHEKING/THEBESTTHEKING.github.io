@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta content="yes" name="apple-touch-fullscreen">
+	<meta content="telephone=no,email=no" name="format-detection">
+	<meta name="wap-font-scale" content="no">
+	<title>搜索</title>
+	<script type="text/javascript" src="../js/setRem.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/common.css">
+	<link rel="stylesheet" type="text/css" href="../css/search.css">
+</head>
+<body>
+	<div class="container">
+		<header>
+			<div class="tops">
+				<a href="#"></a>
+				<form action="#"><input type="text" id="search_text" placeholder="请输入搜索内容"></form>
+				<div class="reset" id="reset">取消</div>
+			</div>
+		</header>
+		<div class="oldsearch">
+			<h4><img src="../img/bg_search.png" alt=""><div>最近搜索</div><img id="delete" src="../img/bg_delete.png" alt=""></h4>
+			<ul id="search_contents" class="items">
+			</ul>
+		</div>
+		<div class="oldsearch">
+			<h4><img src="../img/bg_hot.png" alt=""><div>热门搜索</div></h4>
+			<ul class="items">
+				<li>羽绒服</li>
+				<li>毛呢外套</li>
+				<li>水杯</li>
+				<li>打底裤</li>
+				<li>茶壶</li>
+				<li>面膜</li>
+				<li>保温杯</li>
+				<li>宽松毛衣女</li>
+				<li>剃须刀</li>
+				<li>核桃夹子</li>
+				<li>3M口罩</li>
+			</ul>
+		</div>
+	</div>
+	<script src="../js/localforage.min.js"></script>
+	<script src="../js/search.js"></script>
+</body>
+</html>

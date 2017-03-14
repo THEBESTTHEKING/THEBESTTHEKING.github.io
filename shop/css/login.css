@@ -1,0 +1,89 @@
+html,body {
+	width: 100%;
+	height: 100%;
+	background: #f7f7f7;
+}
+.container {
+	width: 100%;
+	height: 100%;
+}
+header {
+	width: 100%;
+	height: 1.25rem;
+	line-height: 1.25rem;
+	text-align: center;
+	font-size: 0.4688rem;
+	position: relative;
+	color:#535353;
+	border-bottom: 1px solid #eee;
+
+}
+header a {
+	display: block;
+	position: absolute;
+	height: 100%;
+	width: 1.25rem;
+	background: url("../img/bg_prev.png")0 0 no-repeat;
+	background-size:1.25rem;
+}
+form {
+	margin: 0 auto;
+	width: 9.0625rem;
+    height: 1.3438rem;
+}
+form ul {
+
+}
+form ul li {
+	display: flex;
+    align-items: center;
+    background: white;
+    height: 1.3438rem;
+    border: 1px solid #d6d6d6;
+    border-radius: 0.0469rem;
+    margin: 0.4375rem 0;
+    border-radius: 0.1562rem;
+}
+form ul li input {
+	height: 100%;
+	width: 6.6406rem;
+	border: none;
+	outline: none;
+	font-size: 0.4688rem;
+	text-indent: 0.3125rem;
+}
+form ul li .active {
+	width: 100%;
+} 
+form ul li input[type="submit"] {
+	width: 100%;
+	background: #43e6d0;
+	color: white;
+	font-weight: bold;
+}
+.toggle {
+	width: 1.7188rem;
+	height: 0.9688rem;
+	border: 1px solid #eee;
+	border-radius: 0.9688rem;
+	position: relative;
+}
+.toggle span {
+	display: block;
+	width: 0.9688rem;
+	height: 0.9688rem;
+	border-radius: 50%;
+	border: 1px solid #eee;
+	position: absolute;
+	top: -1px;
+	left: auto;
+	background: orange;
+}
+.toggle .right {
+	right: -1px;
+}
+.code img {
+	width: 1.7188rem;
+    height: 0.9688rem;
+}
+

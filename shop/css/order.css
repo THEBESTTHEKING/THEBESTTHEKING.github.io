@@ -1,0 +1,14 @@
+header {
+	width: 100%;
+	height: 1.2344rem;
+	position: absolute;
+	border-bottom: 1px solid #eee;
+	display: flex;
+}
+header a {
+	position: absolute;
+}
+header a img {
+	width: 0.5312rem;
+	height: 1.2344rem;
+}

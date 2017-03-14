@@ -1,0 +1,30 @@
+* { 
+	margin: 0; 
+	padding: 0; 
+}
+img { 
+	display: block; 
+	border: 0; 
+}
+li { 
+	list-style-type: none; 
+}
+em,i { 
+	font-style: normal; 
+}
+a { 
+	text-decoration: none;
+	color:#333; 
+}
+.clearfix:after {
+	display: block;
+	height: 0;
+	overflow: hidden;
+	clear: both;
+	content:"";
+}
+@media screen and(max-width:320px){
+	body {
+		font-size: 12px;
+	}
+}

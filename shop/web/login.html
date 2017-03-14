@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta content="yes" name="apple-touch-fullscreen">
+	<meta content="telephone=no,email=no" name="format-detection">
+	<meta name="wap-font-scale" content="no">
+	<title>登陆</title>
+	<script type="text/javascript" src="../js/flexible.js"></script>
+	<script type="text/javascript" src="../js/setRem.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/common.css">
+	<link rel="stylesheet" type="text/css" href="../css/login.css">
+</head>
+<body>
+	<div class="container">
+		<header>
+			<a href="javascript:window.history.back();"></a>
+			<h2>登陆</h2>
+		</header>
+		<form id="form">
+			<ul>
+				<li><input class="active" type="text" name="username" placeholder="邮箱或已验证手机"></li>
+				<li><input type="password" name="password" placeholder="请输入密码">
+					<div class="toggle"><span></span></div>
+				</li>
+				<li>
+					<input type="text" name="codes" placeholder="请输入验证码">
+					<div id="code" class="code"><img src="../img/code.png" alt=""></div>
+				</li>
+				<li><input type="submit" name="send" value="登陆"></li>
+			</ul>
+		</form>
+	</div>
+	<script src="../js/login.js"></script>
+</body>
+</html>
